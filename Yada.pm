@@ -25,19 +25,30 @@ All you need is to 'use Yada::Yada::Yada' and off you go ...
 
 =head1 AUTHOR
 
-Tony Bowden, E<lt>kasei@tmtm.comE<gt>.
+Tony Bowden
+
+=head1 BUGS and QUERIES
+
+Please direct all correspondence regarding this module to:
+  bug-Yada-Yada-Yada@rt.cpan.org
 
 =head1 COPYRIGHT
 
-Copyright (C) 2001 Tony Bowden. All rights reserved.
+  Copyright (C) 2001-2005 Tony Bowden.
 
-This module is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+  This program is free software; you can redistribute it and/or modify it under
+  the terms of the GNU General Public License; either version 2 of the License,
+  or (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful, but WITHOUT
+  ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.
 
 =cut
 
-use vars qw/$VERSION/;
-$VERSION = '0.02';
+$VERSION = '1.00';
+
+use strict;
 
 use Filter::Simple;
 
